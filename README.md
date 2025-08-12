@@ -6,8 +6,8 @@ cd backend
 npm install
 2. Configure environment variables:
 Create a .env file in the backend folder with:
-DATABASE_URL="postgresql://postgres.xdywtpvajufoghomhvrf:Quiz_Builder@aws-0-eu-north-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
-DIRECT_URL="postgresql://postgres.xdywtpvajufoghomhvrf:Quiz_Builder@aws-0-eu-north-1.pooler.supabase.com:5432/postgres"
+   - DATABASE_URL="postgresql://postgres.xdywtpvajufoghomhvrf:Quiz_Builder@aws-0-eu-north-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+   -  DIRECT_URL="postgresql://postgres.xdywtpvajufoghomhvrf:Quiz_Builder@aws-0-eu-north-1.pooler.supabase.com:5432/postgres"
 3. Start the backend server:
 npm run start:dev
 
