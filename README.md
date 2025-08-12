@@ -17,6 +17,7 @@ cd frontend
 npm install
 2. Start the development server:
 npm run start:dev
+// Note: The Next.js development server must start on port 3000.
 
 Creating a Sample Quiz
 1. Open the frontend app in your browser at http://localhost:3000/create.
